@@ -1,0 +1,27 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# SSH Keys
+*.pem
+
+# Ansible
+*.retry
+
+# Kubernetes
+kubeconfig
+admin.conf
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Python
+__pycache__/
